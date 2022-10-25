@@ -1,0 +1,9 @@
+
+仿真fastmnmfonline_test
+SDR = 22.5197   18.9399   SIR = 31.4995   24.2855   
+仿真离线doafast_test
+SDR = 2.93453   SIR = 0   
+仿真离线doafast_test
+SDR = 2.93453   SIR = 0   
+仿真离线doafast_test
+SDR = 2.93453   SIR = 0   

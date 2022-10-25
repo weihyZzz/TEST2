@@ -1,0 +1,30 @@
+%Sampling frequency (in hertz)
+Fs	16000
+
+% Room size (in meters)
+room_size	7.8	3.3	2.4
+
+% Frequency-dependent absorption for surfaces x=0, x=Lx, y=0, y=Ly, z=0, z=Lz
+F_abs	125	250	500	1000	2000	4000	8000
+Ax1	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781
+Ax2	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781
+Ay1	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781
+Ay2	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781
+Az1	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781
+Az2	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781	0.3781
+
+% Sensor positions (in meters)
+sp1	7.4	1.69 1.2
+sp2	7.4	1.615 1.2
+
+
+% Sensor orientations (azimuth, elevation and roll offset in degrees, positive for slew left, nose up or right wing down)
+so1	 0  0   0
+so2	 0  0   0
+
+
+% Sensor direction-dependent impulse responses (e.g. gains or HRTFs)
+sd1	 'omnidirectional'
+sd2	 'omnidirectional'
+sd3	 'omnidirectional'
+sd4	 'omnidirectional'
